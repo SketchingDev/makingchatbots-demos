@@ -1,0 +1,25 @@
+{
+  "name": "@makingchatbots/demos",
+  "version": "1.0.0",
+  "author": "Lucas <31957045+SketchingDev@users.noreply.github.com>",
+  "private": true,
+  "engines": {
+    "node": "~16.10.0"
+  },
+  "workspaces": [
+    "demos/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}
