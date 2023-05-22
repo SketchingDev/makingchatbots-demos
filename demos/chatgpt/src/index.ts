@@ -99,7 +99,7 @@ If I make a mistake you must include the word "WRONG" in your response. Now star
 
     if (data.choices[0].message) {
       messages.push({ role: 'assistant', content: data.choices[0].message.content });
-      convo.sendText(data.choices[0].message.content);
+      await convo.sendText(data.choices[0].message.content);
     } else {
       messages.push({ role: 'assistant', content: '' });
     }
